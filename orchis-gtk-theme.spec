@@ -15,7 +15,7 @@
 
 Name:		orchis-gtk-theme
 Version:	3.0
-Release:	12
+Release:	13
 
 Summary:	Orchis GTK Theme
 License:    GPL-3.0+ or CC-BY-SA-3.0
@@ -43,3 +43,4 @@ cp -a Orchis-Dark / $RPM_BUILD_ROOT%{_datadir}/themes/
 %files
 %doc AUTHORS LICENSE
 %{_datadir}/themes/Orchis/
+%{_datadir}/themes/Orchis-Dark/
