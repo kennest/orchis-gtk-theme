@@ -50,7 +50,7 @@
 
 .scrollbar.button:active,
 .scrollbar.button:active:hover {
-    background-color: mix(@scrollbar_slider, @scrollbar_trough, 0.9);
+    background-color: shade(@scrollbar_slider, 1.1);
 }
 
 .scrollbar.button.top:hover {

@@ -155,7 +155,7 @@ GtkComboBox.combobox-entry .entry:focus,
 .inline-toolbar.toolbar .button,
 .primary-toolbar GtkComboBox .button {
     border-image: -gtk-scaled(url("borders/primary-toolbar-button-border.png"),url("borders/primary-toolbar-button-border@2.png")) 4 / 4px stretch;
-    border-radius: 3px;z
+    border-radius: 3px;
     border-width: 2px;
     border-style: solid;
     border-color: transparent;

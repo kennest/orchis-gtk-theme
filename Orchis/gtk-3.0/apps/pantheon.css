@@ -100,6 +100,7 @@ MarlinViewChromeLocationBar .button {
     background: @background;
     padding-left: 6px;
     padding-right: 6px;
+    border: 1px solid @border;
 }
 
 MarlinViewChromeLocationBar .button:active {
@@ -120,6 +121,7 @@ MarlinViewChromeLocationBar .button:active {
     border-color: alpha(@selection, 0.80);
     box-shadow: inset 0 0 0 1px alpha(@border, 0.4);
     icon-shadow:none;
+    border: 1px solid @border;
 }
 
 /********

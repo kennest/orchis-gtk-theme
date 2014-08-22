@@ -153,10 +153,6 @@ GtkScrolledWindow.frame {
     background-color: @base;
 }
 
-GtkScrolledWindow.frame:backdrop {
-    border: 1px solid @backdrop_border;
-}
-
 /* To avoid double border when a viewport is packed into a GtkScrolledWindow */
 
 GtkScrolledWindow GtkViewport.frame,

@@ -96,7 +96,7 @@
 @define-color button_gradient_a shade(@gradient_a, 1.02);
 @define-color button_gradient_b shade(@gradient_b, 1.02);
 
-@define-color button_active_gradient_a shade(@gradient_b, 1.02);
+@define-color button_active_gradient_a shade(@gradient_b, 1.01);
 @define-color button_active_gradient_b shade(@gradient_a, 1.02);
 
 @define-color button_hover_gradient_a shade(@gradient_a, 1.05);

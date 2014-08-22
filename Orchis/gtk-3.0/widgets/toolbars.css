@@ -165,7 +165,7 @@ GtkToolbar:backdrop {
 .primary-toolbar.toolbar:backdrop,
 .primary-toolbar .toolbar:backdrop {
     border: solid @backdrop_border;
-    padding: 3px 6px 3px 6px;
+    padding: 4px 6px 4px 6px;
     border-top-width: 0;
     border-bottom-width: 1px;
     background-color: shade(@backdrop_background,0.95);

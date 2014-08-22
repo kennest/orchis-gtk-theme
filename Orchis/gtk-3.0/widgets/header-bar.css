@@ -22,8 +22,6 @@
 
 .header-bar,
 .header-bar.toolbar {
-    border: solid @border;
-    border-bottom-width: 1px;
     padding-top: 4px;
     padding-left: 6px;
     padding-bottom: 4px;
@@ -44,8 +42,6 @@
 
 .header-bar:backdrop,
 .header-bar.toolbar:backdrop {
-    border: solid @backdrop_border;
-    border-bottom-width: 1px;
     background-color: @backdrop_gradient_a;
     background-image: linear-gradient(to bottom,
                                   @backdrop_gradient_a,
