@@ -22,10 +22,9 @@
  *******/
 .titlebar {
     text-shadow: 0 1px @text_shadow;
-
     background-image: linear-gradient(to bottom,
-                                      @gradient_a,
-                                      @gradient_b);
+                                      shade(@background, 1.25),
+                                      @background);
     border-radius: 7px 7px 0px 0px;
     border-width: 0px;
     padding-left: 6px;
@@ -68,10 +67,13 @@
 }
 
 .titlebar:backdrop {
-    color: @backdrop_text;
-    text-shadow: none;
-    background-image: none;
     background-color: @backdrop_background;
+    background-image: none;
+    box-shadow: none;
+    border-width: 0;
+    color: @backdrop_text;
+    icon-shadow: none;
+    text-shadow: none;
     -gtk-image-effect: dim;
 }
 
@@ -133,7 +135,7 @@
 /* Window Frame */
 .window-frame {
     border-radius: 6px 6px 0 0;
-    box-shadow: 0 0 0 1px alpha(#000, 0.5),
+    box-shadow: 0 0 0 1px alpha(#000, 0.3),
                 0 2px 8px 3px @window_shadow;
 
     /* this is used for the resize cursor area */
@@ -141,6 +143,5 @@
 }
 
 .window-frame:backdrop {
-    box-shadow: 0 0 0 1px @backdrop_border,
-                0 2px 5px 1px @window_shadow;
+    box-shadow: 0 0 0 1px transparent, 0 2px 5px 1px @window_shadow;
 }

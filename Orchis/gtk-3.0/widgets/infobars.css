@@ -23,11 +23,11 @@
 GtkInfoBar {
     border-width: 0;
     border-style: none;
-    background-color: @gradient_a;
     background-image: linear-gradient(to bottom,
                                   shade(@gradient_b, 0.96),
                                   shade(@gradient_a, 0.96)
                                   );
+    
     color: @text;
     text-shadow: none;
     border: solid @border;
