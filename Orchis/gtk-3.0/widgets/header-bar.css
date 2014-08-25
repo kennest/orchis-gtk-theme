@@ -26,6 +26,7 @@
     padding-left: 6px;
     padding-bottom: 4px;
     padding-right: 6px;
+    border-bottom: 1px solid @border;
     background-color: @gradient_a;
     background-image: linear-gradient(to bottom,
                                   @gradient_a,
@@ -42,6 +43,7 @@
 
 .header-bar:backdrop,
 .header-bar.toolbar:backdrop {
+    border-bottom: 1px solid @backdrop_border;
     background-color: @backdrop_gradient_a;
     background-image: linear-gradient(to bottom,
                                   @backdrop_gradient_a,

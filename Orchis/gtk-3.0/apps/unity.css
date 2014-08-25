@@ -165,5 +165,5 @@ UnityPanelWidget,
 
 /* Force Quit */
 SheetStyleDialog.unity-force-quit {
-     background-color: #a348b1;
+     background-color: @base;
 }
