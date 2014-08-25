@@ -26,7 +26,7 @@
 @define-color background #efefef;/* Background color */
 @define-color foreground #555;/* Foreground color */
 @define-color insensitive #999; /* Insensitive color */
-@define-color border shade(@background, 0.8);/* Borders color */
+@define-color border alpha(#000, 0.3);/* Borders color */
 @define-color separator @border;/* Separator color */
 @define-color menu_separator alpha(#000, 0.1);/* Separator color */
 @define-color text #555;/* Text color */

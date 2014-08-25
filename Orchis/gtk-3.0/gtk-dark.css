@@ -25,10 +25,9 @@
 @define-color base #555;/* Base color */
 @define-color background #464346;/* Background color */
 @define-color foreground #ddd;/* Foreground color */
-@define-color border shade(@background, 0.8);/* Borders color */
-@define-color insensitive #777; /* Insensitive color */
+@define-color border alpha(#000, 0.2);/* Borders color */
 @define-color separator @border;/* Separator color */
-@define-color menu_separator alpha(#000, 0.1);/* Separator color */
+@define-color menu_separator alpha(#000, 0.2);/* Separator color */
 @define-color text @foreground;/* Text color */
 @define-color panel #464346;/* Panel color */
 @define-color selection shade(#a348b1, 0.8);/* Selection color */
