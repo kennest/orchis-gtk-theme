@@ -294,7 +294,7 @@ GtkToolbar:backdrop {
 .inline-toolbar .toolbar,
 .inline-toolbar.toolbar {
     border: solid @border;
-    border-top-width: 1px;
+    border-width: 0 1px 1px 1px;
     padding: 4px;
     background-image: linear-gradient(to bottom,
                                   shade(@gradient_b, 0.99),

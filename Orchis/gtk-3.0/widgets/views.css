@@ -269,7 +269,8 @@ GtkIconView.view.cell:selected,
 GtkIconView.view.cell:selected:focus {
     border: 1px solid @selection;
     border-radius: 4px;
-    background-color: alpha(@selection, 0.7);
+    background:none;
+    background-color: @selection;
     color: @selected_foreground;
 }
 
