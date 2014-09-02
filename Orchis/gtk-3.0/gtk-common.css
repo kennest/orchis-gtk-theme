@@ -96,7 +96,7 @@
 @define-color button_gradient_a shade(@gradient_a, 1.02);
 @define-color button_gradient_b shade(@gradient_b, 1.02);
 
-@define-color button_active_gradient_a shade(@gradient_b, 1.01);
+@define-color button_active_gradient_a shade(@gradient_b, 1.02);
 @define-color button_active_gradient_b shade(@gradient_a, 1.02);
 
 @define-color button_hover_gradient_a shade(@gradient_a, 1.05);
@@ -156,6 +156,13 @@
 
 @define-color inset_light alpha(white, 0.45);
 @define-color inset_dark alpha(#000, 0.07);
+
+/*****************
+ * Titlebar Colors *
+ *****************/
+@define-color titlebar shade(@background, 0.9);/* Titlebar */
+@define-color titlebar_gradient_a shade(@background, 0.99);/* Titlebar Gradient color A */
+@define-color titlebar_gradient_b shade(@background, 0.8);/* Titlebar Gradient color B */
 
 /*****************
  * Miscellaneous *

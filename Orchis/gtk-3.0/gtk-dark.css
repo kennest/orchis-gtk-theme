@@ -40,7 +40,6 @@
 @define-color panel_text_shadow alpha(#000, 0.2);/* Panel text color */
 @define-color text_shadow alpha(#000, 0.4);/* Text shadow */
 @define-color icon_shadow @text_shadow;/* Icon shadow */
-@define-color titlebar shade(@background, 0.95);/* Titlebar */
 @define-color title shade(@titlebar, 0.6); /* Title */
 @define-color title_shadow alpha(#fff, 0.4); /* Title shadow */
 

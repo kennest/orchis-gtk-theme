@@ -33,16 +33,15 @@
 @define-color panel #464346;/* Panel color */
 @define-color selection #a348b1;/* Selection color */
 @define-color selected_border shade(@selection, 0.8);/* Selection Border */
-@define-color gradient_a @background;/* Gradient color A */
+@define-color gradient_a #efefef;/* Gradient color A */
 @define-color gradient_b shade(@gradient_a, 0.95);/* Gradient color B */
 @define-color view_background #fff;/* View background */
 @define-color inactive_frame @border;/* Inactive frame color */
-@define-color panel_text #efefef;/* Panel text color */
+@define-color panel_text #fff;/* Panel text color */
 @define-color panel_text_shadow alpha(#000, 0.2);/* Panel text color */
 @define-color text_shadow alpha(white, 0.4);/* Text shadow */
 @define-color icon_shadow @text_shadow;/* Icon shadow */
-@define-color titlebar shade(@background, 0.95);/* Titlebar */
-@define-color title shade(@titlebar, 0.6); /* Title */
+@define-color title @text; /* Title */
 @define-color title_shadow alpha(#fff, 0.4); /* Title shadow */
 
 

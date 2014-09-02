@@ -17,14 +17,15 @@
 * with the Orchis GTK theme. If not, see http://www.gnu.org/licenses/.
 */
 
-/*******
- * CSD *
- *******/
+/******************
+ * Titlebar (CSD) *
+ ******************/
+
 .titlebar {
     text-shadow: 0 1px @text_shadow;
     background-image: linear-gradient(to bottom,
-                                      shade(@background, 1.25),
-                                      @background);
+                                      @titlebar_gradient_a,
+                                      @titlebar_gradient_b);
     border-radius: 7px 7px 0px 0px;
     border-width: 0px;
     padding-left: 6px;
@@ -143,5 +144,5 @@
 }
 
 .window-frame:backdrop {
-    box-shadow: 0 0 0 1px transparent, 0 2px 5px 1px @window_shadow;
+    box-shadow: 0 0 0 1px alpha(#000, 0.1), 0 2px 5px 1px @window_shadow;
 }

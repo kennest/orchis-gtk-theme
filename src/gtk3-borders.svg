@@ -144,11 +144,11 @@
       <stop
          id="stop3828-2-1"
          offset="0"
-         style="stop-color:#000000;stop-opacity:0.059" />
+         style="stop-color:#000000;stop-opacity:0.05882353;" />
       <stop
          id="stop3830-6-5"
          offset="1"
-         style="stop-color:#ffffff;stop-opacity:0.19607843;" />
+         style="stop-color:#000000;stop-opacity:0.01960784;" />
     </linearGradient>
     <linearGradient
        id="linearGradient4928">
@@ -242,14 +242,14 @@
   </defs>
   <sodipodi:namedview
      id="base"
-     pagecolor="#000000"
+     pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0"
+     inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="65.657725"
-     inkscape:cy="83.817756"
+     inkscape:cx="34.419215"
+     inkscape:cy="202.12128"
      inkscape:document-units="px"
      inkscape:current-layer="layer4"
      showgrid="false"

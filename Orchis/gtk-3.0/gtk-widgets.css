@@ -72,7 +72,7 @@
 @import url("widgets/color-chooser.css");
 @import url("widgets/column-header.css");
 @import url("widgets/combobox.css");
-@import url("widgets/csd.css");
+@import url("widgets/titlebar.css");
 @import url("widgets/destructive-action-buttons.css");
 @import url("widgets/dialogs.css");
 @import url("widgets/dynamic-notebook.css");
@@ -84,8 +84,8 @@
 @import url("widgets/levelbars.css");
 @import url("widgets/linked-buttons.css");
 @import url("widgets/list-boxes.css");
-@import url("widgets/menu-button.css");
 @import url("widgets/lists.css");
+@import url("widgets/menu-button.css");
 @import url("widgets/menus.css");
 @import url("widgets/miscellaneous.css");
 @import url("widgets/notebook.css");
@@ -101,6 +101,7 @@
 @import url("widgets/spinbutton.css");
 @import url("widgets/spinner.css");
 @import url("widgets/statusbar.css");
+@import url("widgets/suggested-action-buttons.css");
 @import url("widgets/switches.css");
 @import url("widgets/toolbars.css");
 @import url("widgets/tooltips.css");
