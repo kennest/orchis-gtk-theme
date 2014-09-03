@@ -39,10 +39,8 @@ GraniteWidgetsStaticNotebook .frame {
 }
 
 .popover_bg {
-    background-color: @background;
-
+    background-color: @base;
     background-image: none;
-
     border: 1px solid @border;
 }
 
