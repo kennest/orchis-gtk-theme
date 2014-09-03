@@ -29,7 +29,7 @@
 
 .pane-separator:hover,
 .pane-separator:selected {
-    color: @text;
+    color: @foreground;
 }
 
 .pane-separator:backdrop,

@@ -41,7 +41,9 @@
 @define-color text_shadow alpha(#000, 0.4);/* Text shadow */
 @define-color icon_shadow @text_shadow;/* Icon shadow */
 @define-color title shade(@titlebar, 0.6); /* Title */
-@define-color title_shadow alpha(#fff, 0.4); /* Title shadow */
+@define-color title_shadow alpha(#000, 0.4); /* Title shadow */
+@define-color window_border alpha(#000, 0.7); /* Window border */
+@define-color window_backdrop_border alpha(#000, 0.5); /* Window border (backdrop) */
 
 /***********
  * Imports *

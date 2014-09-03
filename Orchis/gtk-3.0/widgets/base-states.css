@@ -21,7 +21,7 @@
  * Base States *
  ***************/
 .background {
-    color: @text;
+    color: @foreground;
     background-color: @background;
 }
 

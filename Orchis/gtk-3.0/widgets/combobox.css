@@ -26,7 +26,7 @@ GtkComboBox {
 
     -GtkComboBox-arrow-scaling: 0.5;
     -GtkComboBox-shadow-type: none;
-    color: @text;
+    color: @foreground;
 
 }
 
@@ -68,7 +68,7 @@ GtkComboBox .separator {
 GtkComboBox .arrow {
     background-color: transparent;
     border: none;
-    color: @text;
+    color: @foreground;
 }
 
 

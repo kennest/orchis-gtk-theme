@@ -54,7 +54,7 @@
     -GtkWindow-resize-grip-width: 0;
     -GtkWindow-resize-grip-height: 0;  
 
-    outline-color: alpha(@text, 0.3);
+    outline-color: alpha(@foreground, 0.3);
     outline-style: dashed;
     outline-offset: 2px;
 

@@ -38,6 +38,7 @@
     padding-left: 6px;
     padding-bottom: 4px;
     padding-right: 6px;
+    border-bottom: 1px solid @border;
 }
 
 .header-bar:backdrop,
@@ -86,7 +87,7 @@
 
 .header-bar GtkComboBox,
 .header-bar .button {
-    color: @text;
+    color: @foreground;
     background-image: linear-gradient(to bottom,
                                   @button_gradient_a,
                                   @button_gradient_b
@@ -102,7 +103,7 @@
 
 .header-bar GtkComboBox:active,
 .header-bar .button:active {
-    color: @text;
+    color: @foreground;
     background-image: linear-gradient(to bottom,
                                   @button_active_gradient_a,
                                   @button_active_gradient_b
@@ -115,7 +116,7 @@
 
 .header-bar GtkComboBox:hover,
 .header-bar .button:hover {
-    color: @text;
+    color: @foreground;
     background-image: linear-gradient(to bottom,
                                   shade(@button_gradient_a, 1.05),
                                   shade(@button_gradient_b, 1.05)
@@ -204,7 +205,7 @@
 
 .header-bar .button GtkImage {
     border-radius: 4px;
-    color: @text;
+    color: @foreground;
     border: 1px solid transparent;
     icon-shadow: 0 1px @text_shadow;
     text-shadow: 0 1px @text_shadow;

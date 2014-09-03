@@ -42,7 +42,7 @@ GtkCalendar.header {
 GtkCalendar.button {
     border: none;
     background-color: transparent;
-    color: @text;
+    color: @foreground;
 }
 
 GtkCalendar.button:insensitive,

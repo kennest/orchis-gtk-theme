@@ -236,7 +236,7 @@ CheeseThumbView /* Cheese */
 }
 
 .nautilus-desktop.nautilus-canvas-item:active {
-    color: @text;
+    color: @foreground;
 }
 
 .nautilus-desktop.nautilus-canvas-item:backdrop {

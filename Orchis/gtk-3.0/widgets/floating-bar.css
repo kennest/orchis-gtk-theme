@@ -23,7 +23,7 @@
     background-color:shade(@base, 0.99);
     border: 1px solid @border;
 
-    color: @text;
+    color: @foreground;
     text-shadow: 0 1px @text_shadow;
 
     border-radius: 3px;

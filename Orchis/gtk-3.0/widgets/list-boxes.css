@@ -21,12 +21,12 @@
  **************/
 EggListBox {
     background-color: @base;
-    color: @text;
+    color: @foreground;
 }
 
 .list {
     background-color: @base;
-    color: @text;
+    color: @foreground;
 }
 
 .list-row:hover {

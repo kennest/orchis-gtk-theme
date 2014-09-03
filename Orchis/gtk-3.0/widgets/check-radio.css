@@ -31,7 +31,7 @@ GtkCheckButton:selected:focus {
 .check row:selected,
 .check row:selected:focus {
 	background-color: transparent;
-    color: @text;
+    color: @foreground;
 }
 
 .check:insensitive,

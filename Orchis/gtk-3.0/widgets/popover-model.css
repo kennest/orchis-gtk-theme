@@ -98,7 +98,7 @@ GtkModelButton.button:active:selected:backdrop {
 GtkPopover .separator {
     font-size: 80%;
     font-weight: bold;
-    color: alpha(@text,0.4);
+    color: alpha(@foreground,0.4);
     text-shadow: none;
     background-color: transparent;
     icon-shadow: none;

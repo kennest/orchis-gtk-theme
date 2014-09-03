@@ -72,11 +72,11 @@ GraniteWidgetsWelcome {
 }
 
 GraniteWidgetsWelcome GtkLabel {
-    color: @text;
+    color: @foreground;
     text-shadow: none;
 }
 
 GraniteWidgetsWelcome .h1,
 GraniteWidgetsWelcome .h3 {
-    color: alpha(@text, 0.8);
+    color: alpha(@foreground, 0.8);
 }

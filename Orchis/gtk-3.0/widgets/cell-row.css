@@ -21,7 +21,7 @@
  ****************/
 
 .cell {
-    color: @text;
+    color: @foreground;
     text-shadow: none;
     border-width: 0px;
 }

@@ -22,12 +22,12 @@
 .list,
 .list-row {
     background-color: @background;
-    color: @text;
+    color: @foreground;
 }
 
 .list-row:hover {
     background-color: shade(@background, 1.1);
-    color: shade(@text, 1.1);
+    color: shade(@foreground, 1.1);
 }
 
 .list:backdrop,
@@ -69,27 +69,27 @@
 /* List Row Button */
 .button.list-row {
     border: 1px solid transparent;
-    color: @text;
+    color: @foreground;
 }
 
 .button.list-row:hover  {
     border: 1px solid @border;
-    color: @text;
+    color: @foreground;
 }
 
 .button.list-row:active {
     border: 1px solid @border;
-    color: @text;
+    color: @foreground;
 }
 
 .button.list-row:active:selected,
 .button.list-row:active:selected:hover {
     border: 1px solid @border;
-    color: @text;
+    color: @foreground;
 }
 
 .button.list-row:hover:selected {
     border: 1px solid @border;
     background-color: shade(@background, 1.2);
-    color: @text;
+    color: @foreground;
 }

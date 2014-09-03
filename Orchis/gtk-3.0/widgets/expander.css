@@ -2,8 +2,8 @@
  * expander *
  ************/
 .expander {
-	border: alpha(@text, 0.7);
-    color: alpha(@text, 0.7);
+	border: alpha(@foreground, 0.7);
+    color: alpha(@foreground, 0.7);
 }
 
 .expander:active,

@@ -29,7 +29,7 @@ GtkSwitch {
 
 /* Normal */
 GtkSwitch.trough {
-    color: @text;
+    color: @foreground;
     border-radius: 1em;
     padding: 0.25em;
 

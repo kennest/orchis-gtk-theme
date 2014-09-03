@@ -24,7 +24,7 @@
 .frame {
     background-color: transparent;
     border: 1px solid @border;
-    color: @text;
+    color: @foreground;
 }
 
 .frame:backdrop {
@@ -52,7 +52,7 @@ GtkPaned,
 GtkViewport,
 GtkScrolledWindow,
 GtkWindow {
-    color: @text;
+    color: @foreground;
     background-color: @background;
 }
 
@@ -85,7 +85,7 @@ GtkWindow:insensitive {
 
 .view {
     background-color: @base;
-    color: @text;
+    color: @foreground;
     text-shadow: none;
 }
 
@@ -133,7 +133,7 @@ GtkWindow:insensitive {
  * Viewport *
  ************/
 GtkViewport {
-    color: @text;
+    color: @foreground;
 }
 
 
@@ -170,7 +170,7 @@ GtkListBoxRow:selected,
 GtkListBoxRow:selected:backdrop,
 .view:selected {
     background-color: shade (@base, 0.80);
-    color: @text;
+    color: @foreground;
 }
 
 GtkListBoxRow:selected:focus,
@@ -213,12 +213,12 @@ GtkTreeView {
 
 GtkTreeView row:nth-child(even) {
     background-color: @base;
-    color: @text;
+    color: @foreground;
 }
 
 GtkTreeView row:nth-child(odd) {
     background-color: shade(@base,0.96);
-    color: @text;
+    color: @foreground;
 }
 
 GtkTreeView .entry {
@@ -242,7 +242,7 @@ GtkTreeView .entry {
 
 GtkTextView {
     background-color: @base;
-    color: @text;
+    color: @foreground;
 }
 
 GtkTextView:backdrop {
@@ -262,7 +262,7 @@ GtkIconView.view {
     background-color: @base;
     border: solid @selection;
     border-top-width: 1px;
-    color: @text;
+    color: @foreground;
 }
  
 GtkIconView.view.cell:selected,
@@ -298,7 +298,7 @@ GtkIconView.content-view.check:selected {
  ****************/
 .content-view.view {
     background-color: @base;
-    color: @text;
+    color: @foreground;
 }
 
 .content-view.view:hover {
@@ -348,20 +348,20 @@ GtkIconView.content-view.check:selected {
 
 .content-view .title,
 .content-view .option-title {
-    color: @text;
+    color: @foreground;
     text-shadow: 0 1px alpha(#fff, 0.3);
 }
 
 .content-view .subtitle,
 .content-view .option-description {
-    color: alpha(@text, 0.7);
+    color: alpha(@foreground, 0.7);
     text-shadow: 0 1px alpha(#fff, 0.4);
 } 
 
 /* Drawing area */
 GtkDrawingArea {
     background-color: @base;
-    color: @text;
+    color: @foreground;
 }
 
 GtkDrawingArea:backdrop {
@@ -378,7 +378,7 @@ GtkDrawingArea:insensitive {
  ***********/
 GtkHTML {
     background-color: @base;
-    color: @text;
+    color: @foreground;
 }
 
 GtkHTML:active:backdrop,

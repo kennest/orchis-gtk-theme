@@ -37,7 +37,7 @@ GtkComboBox .menu {
     padding: 0;
     border: none;
     background-color: @base;
-    color: @text;
+    color: @foreground;
 }
 
 /*Context Menu*/
@@ -101,7 +101,7 @@ GtkTreeMenu .menuitem {
 /* Arrow color */
 .menuitem.arrow {
     background-color: @base;
-    color: @text;
+    color: @foreground;
     border: none;
 }
 
@@ -120,7 +120,7 @@ GtkTreeMenu .menuitem {
     border: none;
     background-color: @base;
     background-image: none;
-    color: @text;
+    color: @foreground;
 }
 
 .menuitem .entry:active,
@@ -132,13 +132,13 @@ GtkTreeMenu .menuitem {
 /* Accelerators */
 .menuitem .accelerator,
 .menuitem .accelerator:insensitive {
-    color: alpha(@text, 0.7);
+    color: alpha(@foreground, 0.7);
     text-shadow:none;
 }
 
 .menuitem .accelerator:hover,
 .menuitem .accelerator:active {
-    color: alpha (@text, 0.3);
+    color: alpha (@foreground, 0.3);
 }
 
 /***********
@@ -150,7 +150,7 @@ GtkTreeMenu .menuitem {
     border: none;
     background-color: @background;
     background-image: none;
-    color: @text;
+    color: @foreground;
 }
 .menubar:backdrop {
     background-color: @backdrop_background;
@@ -161,7 +161,7 @@ GtkTreeMenu .menuitem {
     padding: 2px 6px;
     border: none;
     background-color: transparent;
-    color: @text;
+    color: @foreground;
 }
 
 .menubar.menuitem:hover,

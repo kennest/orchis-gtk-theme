@@ -41,8 +41,10 @@
 @define-color panel_text_shadow alpha(#000, 0.2);/* Panel text color */
 @define-color text_shadow alpha(white, 0.4);/* Text shadow */
 @define-color icon_shadow @text_shadow;/* Icon shadow */
-@define-color title @text; /* Title */
+@define-color title @foreground; /* Title */
 @define-color title_shadow alpha(#fff, 0.4); /* Title shadow */
+@define-color window_border alpha(#000, 0.3); /* Window border */
+@define-color window_backdrop_border alpha(#000, 0.2); /* Window border (backdrop) */
 
 
 /***********

@@ -151,12 +151,12 @@ ConversationListView.view.cell:selected {
 
 NoiseWidgetsTileView {
     background-color: @base;
-    color: @text;
+    color: @foreground;
 }
 
 .tile-view {
     background-color: @base;
-    color: @text;
+    color: @foreground;
 }
 
 /***************
@@ -164,7 +164,9 @@ NoiseWidgetsTileView {
  ***************/
 
 .category-label {
-    color: @text;
+    font-weight: bold;
+    font-size: 1.04em;
+    color: @foreground;
     text-shadow: 0 1px @text_shadow;
 }
 
@@ -215,7 +217,7 @@ NoiseWidgetsTileView {
 .search-item {
     border-radius: 0;
     border: none;
-    color: @text;
+    color: @foreground;
     background: transparent;
 }
 
@@ -242,7 +244,7 @@ NoiseWidgetsTileView {
  
 .search-category-header {
     font-weight: bold;
-    color: @text;
+    color: @foreground;
     text-shadow: 0 1px @text_shadow;
 }
 

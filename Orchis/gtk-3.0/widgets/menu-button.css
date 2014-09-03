@@ -36,7 +36,7 @@
 .menu.button:hover {
     background-image: none;
     background-color: @base;
-    color: @text;
+    color: @foreground;
     border-style: none;
 }
 
@@ -52,7 +52,7 @@
 .menu.button:insensitive,
 .menu.button {
     border-width: 0;
-    background-color: shade(@text, 1.05);
+    background-color: shade(@foreground, 1.05);
     background-image: none;
 }
 
@@ -68,7 +68,7 @@ GtkMenuButton.button:active,
                                   @button_active_gradient_a,
                                   @button_active_gradient_b
                                   );
-    color: @text;
+    color: @foreground;
 }
 
 GtkMenuButton.button *:active,
@@ -105,7 +105,7 @@ GtkMenuButton.button *:active,
 .button.menuitem.menubar *:active,
 GtkMenuButton.button *:active,
 .toolbar GtkMenuButton.button *:active {
-    color: @text;
+    color: @foreground;
 }
 
 GtkMenuButton .menu {

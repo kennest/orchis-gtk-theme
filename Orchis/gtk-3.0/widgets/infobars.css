@@ -28,7 +28,7 @@ GtkInfoBar {
                                   shade(@gradient_a, 0.96)
                                   );
     
-    color: @text;
+    color: @foreground;
     text-shadow: none;
     border: solid @border;
     border-bottom-width: 1px;
@@ -36,14 +36,14 @@ GtkInfoBar {
 
 
 GtkInfoBar GtkLabel {
-    color: @text;
+    color: @foreground;
     icon-shadow: 0 1px @text_shadow;
     text-shadow: 0 1px @text_shadow;
 }
 
 GtkInfoBar .entry,
 GtkInfoBar .menu {
-    color: @text;
+    color: @foreground;
 }
 
 GtkInfoBar GtkLabel:insensitive {
