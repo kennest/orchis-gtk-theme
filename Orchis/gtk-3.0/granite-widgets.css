@@ -25,12 +25,15 @@ GraniteWidgetsPopOver {
 
     -GraniteWidgetsPopOver-arrow-width: 21;
     -GraniteWidgetsPopOver-arrow-height: 10;
-    -GraniteWidgetsPopOver-border-radius: 16px;
+    -GraniteWidgetsPopOver-border-radius: 8px;
     -GraniteWidgetsPopOver-border-width: 1;
     -GraniteWidgetsPopOver-shadow-size: 12;
     
-    border: 1px solid @border;
+    border: 1px solid transparent;
+    background: @base;
     margin: 0;
+    
+    box-shadow: inset 0 0 0 1px alpha(#fff, 0.5);
 }
 
 GraniteWidgetsPopOver .frame,
