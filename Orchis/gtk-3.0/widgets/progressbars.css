@@ -37,7 +37,8 @@ GtkProgressBar.progressbar {
                                   shade(@selection, 1.0)
                                   );
 
-    border: 1px solid;
+
+    border: 1px solid alpha(#000, 0.4);
 
     border-image: linear-gradient(to bottom,
                                   shade(@selection, 0.95),
@@ -114,21 +115,16 @@ GtkProgressBar.trough {
 .progressbar.vertical row:hover:insensitive,
 .progressbar.vertical row:selected:insensitive,
 .progressbar.vertical row:selected:focus:insensitive {
-    border-radius: 0;
     color: @selected_foreground;
     text-shadow: 0 1px alpha(#000, 0.3);
     icon-shadow: 0 1px alpha(#000, 0.3);
+    background-color: @selection;
     background-image: linear-gradient(to bottom,
-                                      @insensitive_progressbar_background_a,
-                                      @insensitive_progressbar_background_b
-                                      );
+                                  alpha(#000, 0.10),
+                                  alpha(#000, 0.05)
+                                  );
 
-    border: 1px solid;
-
-    border-image: linear-gradient(to bottom,
-                                  shade(@insensitive_border, 0.95),
-                                  shade(@insensitive_border, 0.9)
-                                  ) 1 1 1 1;
+    border: 1px solid shade(@selection, 0.8);
 }
 
 .progressbar row:backdrop,

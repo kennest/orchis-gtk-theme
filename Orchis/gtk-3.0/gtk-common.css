@@ -132,8 +132,8 @@
 @define-color progressbar_background_a shade(@selected_background, 1.1);
 @define-color progressbar_background_b @selected_background;
 
-@define-color insensitive_progressbar_background_a @insensitive_border;
-@define-color insensitive_progressbar_background_b @insensitive_border;
+@define-color insensitive_progressbar_background_a @insensitive_background;
+@define-color insensitive_progressbar_background_b @insensitive_background;
 
 @define-color backdrop_progressbar_background_a shade(@backdrop_background, 0.85);
 @define-color backdrop_progressbar_background_b shade(@backdrop_background, 0.85);

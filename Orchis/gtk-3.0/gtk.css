@@ -27,8 +27,8 @@
 @define-color foreground #555;/* Foreground color */
 @define-color insensitive #999; /* Insensitive color */
 @define-color border shade(@background, 0.8);/* Borders color */
-@define-color separator @border;/* Separator color */
-@define-color menu_separator alpha(#000, 0.1);/* Separator color */
+@define-color separator alpha(#000, 0.2);/* Separator color */
+@define-color menu_separator @separator;/* Separator color */
 @define-color text #555;/* Text color */
 @define-color panel #464346;/* Panel color */
 @define-color selection #a348b1;/* Selection color */
