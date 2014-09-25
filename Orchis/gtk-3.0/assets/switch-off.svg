@@ -15,7 +15,7 @@
    id="svg7539"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="switch-off.svg">
+   sodipodi:docname="switch-off-dark.svg">
   <defs
      id="defs7541">
     <linearGradient
@@ -287,11 +287,11 @@
        id="linearGradient27416-1-72-0">
       <stop
          offset="0"
-         style="stop-color:#000000;stop-opacity:0.13043478;"
+         style="stop-color:#cfcfcf;stop-opacity:1;"
          id="stop27420-2-84-8" />
       <stop
          offset="1"
-         style="stop-color:#000000;stop-opacity:0.15652174;"
+         style="stop-color:#e1e1e1;stop-opacity:1;"
          id="stop27422-3-5-1" />
     </linearGradient>
     <linearGradient
@@ -313,10 +313,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="20.729827"
-     inkscape:cy="21.697465"
+     inkscape:cx="24.838967"
+     inkscape:cy="13.140563"
      inkscape:current-layer="layer1"
-     showgrid="true"
+     showgrid="false"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
      fit-margin-top="0"
@@ -328,7 +328,15 @@
      inkscape:window-x="0"
      inkscape:window-y="28"
      inkscape:window-maximized="1"
-     showborder="false" />
+     showborder="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3040"
+       empspacing="4"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
   <metadata
      id="metadata7544">
     <rdf:RDF>
@@ -337,7 +345,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -382,6 +390,40 @@
        x="117.50019"
        y="-90.499985"
        id="rect6132-8-2-8-0-0-0-10-0-6-0-6-2-0-5-7-3-3-7-8-4-0-2-5-3-6-7-8-6-8"
-       style="opacity:0.3;color:#000000;fill:none;stroke:#434343;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+       style="opacity:0.41;color:#000000;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    <path
+       transform="translate(119,-91)"
+       d="m 50,12 a 6,6 0 1 1 -12,0 6,6 0 1 1 12,0 z"
+       sodipodi:ry="6"
+       sodipodi:rx="6"
+       sodipodi:cy="12"
+       sodipodi:cx="44"
+       id="path3812"
+       style="opacity:0.3;fill:none;stroke:#ffffff;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:none;stroke:#aaaaaa;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3042"
+       sodipodi:cx="44"
+       sodipodi:cy="12"
+       sodipodi:rx="6"
+       sodipodi:ry="6"
+       d="m 50,12 a 6,6 0 1 1 -12,0 6,6 0 1 1 12,0 z"
+       transform="translate(119,-92)" />
+    <rect
+       y="-85"
+       x="127"
+       height="12"
+       width="2"
+       id="rect6146"
+       style="opacity:0.3;fill:#ffffff;fill-opacity:1;stroke:none" />
+    <rect
+       style="opacity:1;fill:#aaaaaa;fill-opacity:1;stroke:none"
+       id="rect5375"
+       width="2"
+       height="12"
+       x="127"
+       y="-86" />
   </g>
 </svg>

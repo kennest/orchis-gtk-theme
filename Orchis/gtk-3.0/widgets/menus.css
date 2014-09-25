@@ -84,17 +84,20 @@ GtkTreeMenu .menuitem {
 .menu .menuitem GtkImage  {
     padding: 0 3px 0 3px;
     -gtk-icon-style: symbolic;
+    color: @foreground;
+}
+
+.menu .menuitem GtkLabel:hover,
+.menu .menuitem GtkImage:hover  {
+    -gtk-icon-style: symbolic;
+    color: #fff;
 }
 
 .menu .menuitem:active,
 .menu .menuitem:hover {
     border: none;
-    box-shadow:inset 0 0 0 1px alpha(#000, 0.05);
-    background-image: linear-gradient(to bottom,
-                                  alpha(#000, 0.10),
-                                  alpha(#000, 0.05)
-                                  );
-    color: @text;
+    background-color: @selection;
+    color: #fff;
     text-shadow:none;
 }
 
@@ -175,12 +178,8 @@ GtkTreeMenu .menuitem {
 .menubar.menuitem:hover,
 .menubar .menuitem:hover {
     border: none;
-    box-shadow:inset 0 0 0 1px alpha(#000, 0.05);
-    background-image: linear-gradient(to bottom,
-                                  alpha(#000, 0.10),
-                                  alpha(#000, 0.05)
-                                  );
-    color: @text;
+    background-color: @selection;
+    color: #fff;
     text-shadow:none;
 }
 

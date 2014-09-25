@@ -15,10 +15,10 @@
 
 Name:		orchis-gtk-theme
 Version:	3.0
-Release:	17
+Release:	20
 
 Summary:	Orchis GTK Theme
-License:    GPL-3.0+ or CC-BY-SA-3.0
+License:    GPL-3.0+
 
 Group:      System/GUI/GNOME
 Url:        http://www.mokaproject.com/orchis-gtk-theme
