@@ -50,8 +50,8 @@
  ***********/
 
 /* Import Main CSS */
+@import url("granite-widgets.css");
 @import url("gtk-widgets-assets-dark.css");
 @import url("gtk-widgets-borders-dark.css");
-@import url("gtk-fallback.css");
 @import url("gtk-widgets.css");
 @import url("gtk-common.css");
