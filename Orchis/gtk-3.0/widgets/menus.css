@@ -60,7 +60,7 @@ GtkComboBox .menu {
 .content-view .menu .menuitem:active,
 .content-view .menu .menuitem:hover {
     background-color: @selection;
-    color: #fff;
+    color: white;
     text-shadow:none;
 }
 
@@ -90,14 +90,14 @@ GtkTreeMenu .menuitem {
 .menu .menuitem GtkLabel:hover,
 .menu .menuitem GtkImage:hover  {
     -gtk-icon-style: symbolic;
-    color: #fff;
+    color: white;
 }
 
 .menu .menuitem:active,
 .menu .menuitem:hover {
     border: none;
     background-color: @selection;
-    color: #fff;
+    color: white;
     text-shadow:none;
 }
 
@@ -179,7 +179,7 @@ GtkTreeMenu .menuitem {
 .menubar .menuitem:hover {
     border: none;
     background-color: @selection;
-    color: #fff;
+    color: white;
     text-shadow:none;
 }
 
