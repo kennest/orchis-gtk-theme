@@ -139,13 +139,13 @@ GtkToolbar:backdrop {
     border: none;
     padding: 4px 6px 4px 6px;
     background-color: @gradient_a;
+    border: solid @border;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
     background-image: linear-gradient(to bottom,
                                       alpha(#000,0.10),
                                       alpha(#000,0.08)
                                       );
-
-    box-shadow: inset 0 1px 0 0 alpha(#000, 0.12),
-                inset 0 -1px 0 0 alpha(#000, 0.08);
 }
 
 /* Backdrop */
@@ -154,7 +154,6 @@ GtkToolbar:backdrop {
     border: solid @backdrop_border;
     border-top-width: 1px;
     border-bottom-width: 1px;
-    padding: 2px 6px 2px 6px;
     background-color: shade(@backdrop_background,0.95);
     background-image: linear-gradient(to bottom,
                                   @backdrop_gradient_a,

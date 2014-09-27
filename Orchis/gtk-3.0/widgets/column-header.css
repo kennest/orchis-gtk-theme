@@ -20,53 +20,6 @@
  * Column header *
  *****************/
  
-column-header .button,
-column-header .button:active,
-column-header .button:focus,
-column-header .button:active:focus {
-    border: solid @border;
-    border-width: 0 1px 1px 0;
-    background-color: @background;
-    background-image: none;
-}
-
-column-header .button:hover,
-column-header .button:active:hover,
-column-header .button:hover:focus,
-column-header .button:active:hover:focus {
-    border: solid @border;
-    border-width: 0 1px 1px 0;
-    background-color: shade(@background,1.02);
-    background-image: none;
-}
-
-column-header .button:backdrop,
-column-header .button:active:backdrop,
-column-header .button:active:focus:backdrop,
-column-header .button:backdrop:focus,
-column-header .button:active:backdrop:focus {
-    border: solid @backdrop_border;
-    border-width: 0 1px 1px 0;
-    background-color: @backdrop_background;
-    background-image: none;
-}
-
-column-header .button:insensitive,
-column-header .button:active:insensitive,
-column-header .button:insensitive:focus,
-column-header .button:active:insensitive:focus {
-    border: solid @insensitive_border;
-    border-width: 0 1px 1px 0;
-    background-color: @backdrop_background;
-    background-image: none;
-}
-
-column-header:last-child .button {
-    border-width: 0 0 1px 0;
-}
-
-
-/* column-headers borders */
 column-header.button,
 column-header .button,
 column-header.button:active,
@@ -82,7 +35,7 @@ column-header:last-child .button:backdrop {
     border-width: 0 1px 1px 0;
     border-radius: 0;
     border-style: solid;
-    border-color: transparent;
+    border-color: @border;
 }
 
 column-header.button,
@@ -92,19 +45,30 @@ column-header .button:active,
 column-header.button:active:hover,
 column-header .button:active:hover,
 column-header .button.dnd {
-    border-color: @border;
+    border-radius: 0;
+    border-image: linear-gradient(to top,
+                                  mix(@border, @background, 0.5),
+                                  @background
+                                  ) 0 1 1 0;
 }
 
 column-header.button:backdrop,
 column-header .button:backdrop,
 column-header.button:last-child:backdrop,
 column-header:last-child .button:backdrop {
-    border-image: none;
+    border-width: 0 1px 1px 0;
+    border-radius: 0;
+    border-style: solid;
+    border-color: transparent;
 }
 
 column-header.button:insensitive,
 column-header .button:insensitive {
-    border-color: @insensitive_border;
+    border-radius: 0;
+    border-image: linear-gradient(to top,
+                                  mix(@insensitive_border, @insensitive_background, 0.5),
+                                  @insensitive_background
+                                  ) 0 1 1 0;
 }
 
 column-header.button:last-child,
@@ -115,5 +79,6 @@ column-header.button:last-child:active:hover,
 column-header:last-child .button:active:hover,
 column-header.button:last-child:backdrop,
 column-header:last-child .button:backdrop {
+    border-radius: 0;
     border-right-width: 0;
 }

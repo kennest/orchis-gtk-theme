@@ -31,7 +31,7 @@
 @define-color menu_separator @separator;/* Separator color */
 @define-color text #555;/* Text color */
 @define-color panel #464346;/* Panel color */
-@define-color selection #a348b1;/* Selection color */
+@define-color selection #A348B1;/* Selection color */
 @define-color selected_border shade(@selection, 0.8);/* Selection Border */
 @define-color gradient_a #efefef;/* Gradient color A */
 @define-color gradient_b shade(@gradient_a, 0.95);/* Gradient color B */

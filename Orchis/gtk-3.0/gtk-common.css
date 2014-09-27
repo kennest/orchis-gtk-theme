@@ -234,7 +234,7 @@
 @define-color infobar_background @selection;
 @define-color infobar_foreground white;
 
-@define-color link #a348b1;
+@define-color link #A348B1;
 @define-color question #60ade8;
 @define-color warning #f49f25;
 @define-color error #e50e0e;

@@ -167,9 +167,13 @@ GraniteWidgetsStaticNotebook .frame {
  ************/
 
 GtkListBoxRow:selected,
-GtkListBoxRow:selected:backdrop,
 .view:selected {
-    background-color: shade (@base, 0.80);
+    background-color: @selection;
+    color: white;
+}
+
+GtkListBoxRow:selected:backdrop, {
+    background-color: @backdrop_background;
     color: @foreground;
 }
 
