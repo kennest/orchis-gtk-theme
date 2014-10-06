@@ -38,7 +38,7 @@ GtkProgressBar.progressbar {
                                   );
 
 
-    border: 1px solid alpha(@selected_border, 0.8);
+    border: 1px solid alpha(@selected_border, 0.9);
 
 }
 
@@ -89,7 +89,7 @@ GtkProgressBar.trough {
                                   shade(@selection, 1.0)
                                   );
 
-    border: 1px solid alpha(@selected_border, 0.8);
+    border: 1px solid alpha(@selected_border, 0.9);
 }
 
 .progressbar row:insensitive,
