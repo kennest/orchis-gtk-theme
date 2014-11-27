@@ -1,7 +1,7 @@
 pkgname=orchis-gtk-git
 _pkgname=orchis-gtk-theme
 pkgver=3.0
-pkgrel=2
+pkgrel=22
 pkgdesc="Orchis is a modern GTK3 theme for Linux."
 arch=('any')
 url="https://github.com/moka-project/orchis-gtk-theme"
