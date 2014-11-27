@@ -594,31 +594,3 @@
     background-image: url("assets/spinner-01-dark.svg");
     animation: spinner-dark 600ms infinite linear;
 }
-
-/*************
- * GtkSwitch *
- *************/
-
-GtkSwitch.trough {
-    background-image: url("assets/switch-off-dark.svg");
-}
-
-GtkSwitch.trough:active {
-    background-image: url("assets/switch-on-dark.svg");
-}
-
-GtkSwitch.trough:insensitive {
-    background-image: url("assets/switch-off-disabled-dark.svg");
-}
-
-GtkSwitch.trough:active:insensitive {
-    background-image: url("assets/switch-on-disabled-dark.svg");
-}
-
-GtkSwitch.slider {
-    background-image: url("assets/switch-slider-dark.svg");
-}
-
-GtkSwitch.slider:focus {
-    background-image: url("assets/switch-slider-focus-dark.svg");
-}
